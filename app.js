@@ -2,7 +2,8 @@ import 'dotenv/config';
 import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import analyzeRoutes from './routes/analyze.routes.js';
+import analyzeRoutes from './src/routes/analyze.routes.js';
+
 
 const app = express();
 app.use(express.json());
